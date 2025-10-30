@@ -92,7 +92,12 @@ estat hettest
 Robust estimation to correct standard errors:
 
 ```
-reg injuries ... , robust
+reg injuries \
+    num_units crash_christmas crash_night crash_afternoon crash_evening \
+    location_south location_north \
+    speed_below30 speed_above30 \
+    weather_condition traffic_control daylight dry_road damage_over_1500 \
+    ib8.first_crash_type_num , robust
 ```
 
 <img width="788" height="745" alt="image" src="https://github.com/user-attachments/assets/b635a1ea-7b01-481c-b575-07037eacff96" />
