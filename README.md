@@ -1,5 +1,13 @@
 # 🚗 Chicago Traffic Crashes — Econometric Analysis
 
+## 📂 Project
+
+# What Causes Injuries in Chicago Car Crashes? An Econometric Study
+This project analyzes traffic crashes in Chicago using econometric methods to understand the factors that increase the likelihood of injuries during an accident.
+Using the official Traffic Crashes dataset from the City of Chicago, we estimate a Linear Probability Model (LPM) to measure how crash characteristics (time of day, weather, speed, location, crash type, etc.) affect the probability that at least one person is injured.
+
+---
+
 ## 🔗 Dataset
 
 Source: City of Chicago — Traffic Crashes (Crashes)
@@ -153,12 +161,3 @@ Further work:
 * Analyze spatial patterns
 
 ---
-
-## 📂 Project
-
-# What Causes Injuries in Chicago Car Crashes? An Econometric Study
-This project analyzes traffic crashes in Chicago using econometric methods to understand the factors that increase the likelihood of injuries during an accident.
-Using the official Traffic Crashes dataset from the City of Chicago, we estimate a Linear Probability Model (LPM) to measure how crash characteristics (time of day, weather, speed, location, crash type, etc.) affect the probability that at least one person is injured.
-
----
-
