@@ -3,8 +3,7 @@ DAMNNNNNNNNNNNN
 
 lien du projet : https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/about_data
 
- reg injuries num_units crash_christmas crash_night crash_afternoon crash_evening location_south location_north speed_below30 
-> speed_above30 weather_condition traffic_control daylight dry_road damage_over_1500 ib8.first_crash_type_num
+ reg injuries num_units crash_christmas crash_night crash_afternoon crash_evening location_south location_north speed_below30 speed_above30 weather_condition traffic_control daylight dry_road damage_over_1500 ib8.first_crash_type_num
 
 <img width="541" height="342" alt="image" src="https://github.com/user-attachments/assets/658f66ab-76c2-4a06-8705-b9b3516ada1e" />
 <img width="539" height="311" alt="image" src="https://github.com/user-attachments/assets/1dcdbbc5-46c0-480e-964a-dbb4525af7d6" />
