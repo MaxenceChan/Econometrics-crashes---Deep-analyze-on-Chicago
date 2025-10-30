@@ -114,4 +114,3 @@ DAMNNNNNNNNNNNN
 
 ---
 
-*Add any images in /img and link them properly for better visual formatting.*
