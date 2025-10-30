@@ -69,6 +69,35 @@ reg injuries ... , robust
 
 <img width="788" height="745" alt="image" src="https://github.com/user-attachments/assets/b635a1ea-7b01-481c-b575-07037eacff96" />
 
+---
+
+## 🚦 Crash Type Conversion Table
+
+> Mapping of `first_crash_type_num` to crash labels (from Stata)
+
+| Code | Label                        |
+| ---- | ---------------------------- |
+| 1    | ANGLE                        |
+| 2    | ANIMAL                       |
+| 3    | FIXED OBJECT                 |
+| 4    | HEAD ON                      |
+| 5    | OTHER NONCOLLISION           |
+| 6    | OTHER OBJECT                 |
+| 7    | OVERTURNED                   |
+| 8    | PARKED MOTOR VEHICLE         |
+| 9    | PEDALCYCLIST                 |
+| 10   | PEDESTRIAN                   |
+| 11   | REAR END                     |
+| 12   | REAR TO FRONT                |
+| 13   | REAR TO REAR                 |
+| 14   | REAR TO SIDE                 |
+| 15   | SIDESWIPE OPPOSITE DIRECTION |
+| 16   | SIDESWIPE SAME DIRECTION     |
+| 17   | TRAIN                        |
+| 18   | TURNING                      |
+
+---
+
 ### ✅ Interpretation (selected coefficients)
 
 * **num_units ≈ +0.103** → More vehicles → higher injury probability
