@@ -132,21 +132,22 @@ Crash types involving pedestrians, pedalcyclists, overturned vehicles, or head-o
 Most other crash types cluster near zero, reflecting low injury frequency for the majority of accidents.  
 Only a few categories exhibit longer right-tails, suggesting that serious injury outcomes are concentrated within specific crash mechanisms.
 
-### ✅ Figure — Cross-tab of Injury Count by Hour of Crash
+### ✅ Table — Cross-tabulation of Crash Hour × Injury Count  
+(Command used: `tab crash_hour injuries_total, row`)
 
 📌 **Description**  
-This table reports the distribution of crashes by hour of day (rows) and total number of injuries per crash (columns).  
-Each cell indicates how many crashes occurred at a given hour with a specified number of injuries.  
-The rightmost column shows the hourly crash totals, and the bottom row shows totals by injury count.
+This contingency table reports the distribution of crashes by hour of the day (rows) and total number of injuries per crash (columns).  
+Row percentages are displayed, indicating for each hour the share of crashes associated with a given injury count.
 
-<img width="1965" height="537" alt="image" src="https://github.com/user-attachments/assets/c3ccbe37-748b-4f3e-a8f6-981b654d0c94" />
+<img width="1967" height="1534" alt="combined" src="https://github.com/user-attachments/assets/4162b460-b91c-4401-a2fe-be778fd98128" />
 
 📝 **Interpretation**  
-Most crashes occur during typical daytime and evening traffic hours, especially between **7:00–18:00**, reflecting periods of higher road usage.  
-Across all time periods, crashes resulting in **zero injuries** strongly dominate the dataset, representing the vast majority of events.  
+Across all hours, crashes with **zero injuries** account for the overwhelming majority of events (>80% per hour), reflecting that most collisions are not physically harmful to road users.  
 
-Crashes involving **one or more injuries** are much less frequent and show no extreme hourly concentration, though slightly elevated counts appear around late afternoon and early evening.  
-Higher-injury crashes (≥3 injured) are rare and scattered across hours with no clear temporal pattern, suggesting that severe crashes are not strongly time-dependent.
+Crashes resulting in **one injury** typically represent around **10–13%** of events during most hours.  
+Higher-injury crashes (≥2) are comparatively rare and show no strong hourly concentration, remaining below a few percent in all time slots.  
+
+Crash volume increases noticeably from early morning onward, peaking during daytime and evening periods, but the **relative proportion of injury severity remains stable across hours**, suggesting that time of day primarily affects crash frequency rather than crash severity.
 
 ---
 
