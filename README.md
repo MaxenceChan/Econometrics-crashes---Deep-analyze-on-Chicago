@@ -80,6 +80,19 @@ A large majority of crashes (≈ **64%**) fall in the **“over $1,500”** dama
 About **25%** of crashes incur damages between **$501 and $1,500**, while only **≈11%** result in damages of **$500 or less**.  
 This distribution indicates that low-cost incidents are relatively rare compared to medium- or high-cost crashes.
 
+### ✅ Figure — Distribution of Weather Conditions
+
+📌 **Description**  
+Horizontal bar chart showing the frequency of recorded weather conditions at the time of crashes.
+
+<img width="1618" height="1244" alt="Capture d&#39;écran 2025-11-07 175104" src="https://github.com/user-attachments/assets/cf46655c-1a27-4d6f-b413-ec20965803a7" />
+
+📝 **Interpretation**  
+Most crashes occurred under **clear weather conditions**, which account for the overwhelming majority of cases (≈785,000).  
+Rain and cloudy/overcast conditions are the next most common, though far below clear conditions.  
+Severe phenomena (e.g., snow, sleet, hail, blowing sand/dirt, or strong crosswinds) represent a very small share of crashes.  
+This suggests that poor weather is not the primary factor in most recorded accidents, though it may still contribute in a minority of cases.
+
 
 ---
 
