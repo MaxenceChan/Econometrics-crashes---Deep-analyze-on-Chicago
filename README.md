@@ -68,6 +68,18 @@ A weak positive trend is visible: crashes with more units tend to be associated 
 The fitted line confirms that the linear association is weak, and there is considerable variability in injury counts even for the same number of involved units.  
 Overall, the number of units is not a strong predictor of injury severity.
 
+### ✅ Figure — Distribution of Damage Level Categories
+
+📌 **Description**  
+Pie chart showing the proportion of crashes by estimated damage cost category.
+
+<img width="1756" height="1271" alt="Capture d&#39;écran 2025-11-07 175700" src="https://github.com/user-attachments/assets/8eb2e6eb-3a2e-4187-9a01-337d09e09786" />
+
+📝 **Interpretation**  
+A large majority of crashes (≈ **64%**) fall in the **“over $1,500”** damage category, suggesting that most incidents result in substantial material losses.  
+About **25%** of crashes incur damages between **$501 and $1,500**, while only **≈11%** result in damages of **$500 or less**.  
+This distribution indicates that low-cost incidents are relatively rare compared to medium- or high-cost crashes.
+
 
 ---
 
