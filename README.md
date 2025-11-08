@@ -42,6 +42,20 @@ Please keep this context in mind when evaluating the appearance and diversity of
 
 Each plot is displayed below and accompanied by a brief description.
 
+### ✅ Figure — Distribution of Total Injuries per Crash
+
+📌 **Description**  
+Histogram showing the percentage distribution of the total number of injuries recorded per crash (`INJURIES_TOTAL`).
+
+<img width="1744" height="1243" alt="image" src="https://github.com/user-attachments/assets/4f9e8a6e-6c38-4e30-a629-f1c882942688" />
+
+📝 **Interpretation**  
+The distribution is highly concentrated near zero:  
+the vast majority of crashes result in **no injuries or only a very small number of injuries**.  
+Occurrences with more than 3–4 injuries are extremely rare, and values above 10 are exceptional.  
+This confirms that most reported accidents involve minimal physical harm, while severe injury events represent only a very small fraction of total crashes.
+
+
 ---
 
 ## 📐 Model — Linear Probability Model (LPM)
