@@ -37,7 +37,7 @@ reg injuries \
 
 ### 📊 Output (LPM)
 
-<img width="769" height="728" alt="image" src="https://github.com/user-attachments/assets/f8d0fe71-464f-4cd4-b040-8a19f8b643a0" />
+<img width="750" height="872" alt="image" src="https://github.com/user-attachments/assets/0b46c305-137b-45dc-817f-2837344ecaea" />
 
 ---
 
