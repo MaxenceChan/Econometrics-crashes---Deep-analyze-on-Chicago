@@ -100,7 +100,8 @@ reg injuries \
     ib8.first_crash_type_num , robust
 ```
 
-<img width="788" height="745" alt="image" src="https://github.com/user-attachments/assets/b635a1ea-7b01-481c-b575-07037eacff96" />
+<img width="788" height="745" alt="image" src="<img width="749" height="852" alt="image" src="https://github.com/user-attachments/assets/2deb1ea1-8d8a-4a88-9cd7-0bca7a4c1acc" />
+" />
 
 ---
 
