@@ -119,6 +119,18 @@ Traditional controls such as **traffic signals** and **stop signs/flashers** app
 Other signage categories, including pedestrian crossings, school zones, and railroad signals, represent only a small share of total crashes.  
 This suggests that areas lacking traffic control infrastructure are associated with a disproportionately large number of accidents.
 
+### ✅ Figure — Injuries by Crash Type
+
+📌 **Description**  
+Horizontal boxplot displaying the distribution of total injuries for each crash type.  
+Extreme outliers are excluded to improve readability.
+
+<img width="1736" height="1259" alt="image" src="https://github.com/user-attachments/assets/336c51ff-d084-4815-94ec-864c7df9641c" />
+
+📝 **Interpretation**  
+Crash types involving pedestrians, pedalcyclists, overturned vehicles, or head-on collisions show higher median injury counts, indicating that these scenarios are generally more severe.  
+Most other crash types cluster near zero, reflecting low injury frequency for the majority of accidents.  
+Only a few categories exhibit longer right-tails, suggesting that serious injury outcomes are concentrated within specific crash mechanisms.
 
 ---
 
