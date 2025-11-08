@@ -93,6 +93,18 @@ Rain and cloudy/overcast conditions are the next most common, though far below c
 Severe phenomena (e.g., snow, sleet, hail, blowing sand/dirt, or strong crosswinds) represent a very small share of crashes.  
 This suggests that poor weather is not the primary factor in most recorded accidents, though it may still contribute in a minority of cases.
 
+### ✅ Figure — Distribution of Lighting Conditions
+
+📌 **Description**  
+Horizontal bar chart showing the frequency of lighting conditions present at the time of crashes.
+
+<img width="1627" height="1245" alt="Capture d&#39;écran 2025-11-07 174737" src="https://github.com/user-attachments/assets/f799f3eb-bc3d-4412-a4ce-a99ffa5ea21c" />
+
+📝 **Interpretation**  
+Most crashes occurred during **daylight**, accounting for more than 640,000 cases.  
+The next most common condition is **darkness with road lighting**, followed by **dusk** and complete **darkness**.  
+Crashes during **dawn** are relatively rare, and a small portion of cases fall into the **unknown** category.  
+Overall, daylight appears to be the context for the majority of crashes, suggesting that visibility is not the determining factor in most incidents.
 
 ---
 
