@@ -106,6 +106,20 @@ The next most common condition is **darkness with road lighting**, followed by *
 Crashes during **dawn** are relatively rare, and a small portion of cases fall into the **unknown** category.  
 Overall, daylight appears to be the context for the majority of crashes, suggesting that visibility is not the determining factor in most incidents.
 
+### ✅ Figure — Distribution of Road Sign Types
+
+📌 **Description**  
+Horizontal bar chart showing the frequency of each road signage type (`traffic_control_device`) recorded at crash locations.
+
+<img width="1757" height="1237" alt="Capture d&#39;écran 2025-11-07 173758" src="https://github.com/user-attachments/assets/9f430128-2cf0-42b6-9a88-924793fcf288" />
+
+📝 **Interpretation**  
+The majority of crashes occurred at locations **without any traffic control device**, which represents by far the largest category (over 560,000 cases).  
+Traditional controls such as **traffic signals** and **stop signs/flashers** appear next in frequency but remain far behind.  
+Other signage categories, including pedestrian crossings, school zones, and railroad signals, represent only a small share of total crashes.  
+This suggests that areas lacking traffic control infrastructure are associated with a disproportionately large number of accidents.
+
+
 ---
 
 ## 📐 Model — Linear Probability Model (LPM)
