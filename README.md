@@ -22,6 +22,28 @@ Model the probability of injuries occurring during a traffic crash using explana
 
 ---
 
+## 📊 Descriptive Statistics — Visual Exploration
+
+Below are several visualizations summarizing the main features of the dataset.  
+These figures aim to provide an initial understanding of the distributions and relationships among key variables (e.g., traffic conditions, number of units involved, injury counts, damage levels).
+
+> ⚠️ **Note**  
+All visualizations were generated using **Stata 12**, released in **July 2011**.  
+This version predates modern graphical features introduced in later releases (e.g., transparency, continuous color gradients, dynamic color scaling with `colorvar()`).  
+As a result, some stylistic or data-encoding options were not available.  
+Workarounds (such as grayscale markers, categorization of continuous variables, small marker sizes, and manual color grouping) were applied where appropriate.
+
+### ✅ Examples of charts included
+- Bar charts displaying the distribution of qualitative variables  
+- Horizontal bar charts with counts and/or percentages  
+- Pie charts (limited customization due to software constraints)  
+- Scatter plots illustrating relationships between two quantitative variables  
+- Scatter + fitted line models using `lfit`  
+
+Each plot is included below, accompanied by a short explanation of what it shows.
+
+---
+
 ## 📐 Model — Linear Probability Model (LPM)
 
 ### ✅ Regression
