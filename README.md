@@ -55,6 +55,19 @@ the vast majority of crashes result in **no injuries or only a very small number
 Occurrences with more than 3–4 injuries are extremely rare, and values above 10 are exceptional.  
 This confirms that most reported accidents involve minimal physical harm, while severe injury events represent only a very small fraction of total crashes.
 
+### ✅ Figure — Injuries vs. Number of Units Involved
+
+📌 **Description**  
+Scatter plot of the total number of injuries per crash (`INJURIES_TOTAL`) against the number of units involved (`NUM_UNITS`), with a fitted linear regression line.
+
+<img width="1748" height="1241" alt="Capture d&#39;écran 2025-11-08 101010" src="https://github.com/user-attachments/assets/73e183a8-b08c-4b74-982f-6721386bd4bb" />
+
+📝 **Interpretation**  
+Most crashes involve relatively few units (typically fewer than 5) and result in only a small number of injuries.  
+A weak positive trend is visible: crashes with more units tend to be associated with a slightly higher number of injuries, but the relationship is very limited.  
+The fitted line confirms that the linear association is weak, and there is considerable variability in injury counts even for the same number of involved units.  
+Overall, the number of units is not a strong predictor of injury severity.
+
 
 ---
 
