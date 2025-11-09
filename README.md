@@ -309,5 +309,31 @@ crash_christmas crash_night crash_afternoon crash_evening location_south locatio
 
 <img width="754" height="852" alt="image" src="https://github.com/user-attachments/assets/185d2d6f-e1a1-486e-850a-5f30390a5228" />
 
+### ✅ First-Stage Relevance Check
+
+The strength of the instrument `trafficway_type_num` is evaluated using the first-stage statistics.
+
+<img width="622" height="131" alt="image" src="https://github.com/user-attachments/assets/2731797b-31e6-4a0b-81ed-0118337b63d7" />
+
+**Interpretation**
+- **F-stat = 235.8 » 10** → the instrument is **strong** → no weak-IV issue.  
+- **Partial R² = 0.0027**, small but typical for discrete instruments with many controls.  
+- ✅ Conclusion: `trafficway_type_num` provides meaningful exogenous variation in `num_units` and is a relevant instrument for the 2SLS specification.
+
+### ✅ Endogeneity Test
+
+To confirm whether `num_units` is endogenous, we perform a Durbin–Wu–Hausman test.
+
+<img width="504" height="146" alt="image" src="https://github.com/user-attachments/assets/14bac7c7-4326-4e01-b5e4-b054e34be728" />
+
+**Results**
+- Robust score χ²(1) = **3262.25**, p < 0.001  
+- Robust regression F(1, 973324) = **3330.39**, p < 0.001  
+
+**Interpretation**
+- The null hypothesis (**exogeneity**) is **rejected**.  
+- ✅ `num_units` is therefore **endogenous**, meaning OLS is inconsistent.  
+- → This justifies the use of an IV approach (2SLS) to obtain consistent estimates.
+
 
 ---
