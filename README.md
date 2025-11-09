@@ -334,5 +334,22 @@ To confirm whether `num_units` is endogenous, we perform a Durbin–Wu–Hausman
 - ✅ `num_units` is therefore **endogenous**, meaning OLS is inconsistent.  
 - → This justifies the use of an IV approach (2SLS) to obtain consistent estimates.
 
-
 ---
+
+## ✅ Conclusion
+
+This project carried out a full econometric workflow to study injury occurrence in Chicago traffic crashes:
+
+1. Loaded and cleaned the official crash dataset  
+2. Performed descriptive statistics and visual exploration  
+3. Estimated a baseline Linear Probability Model (LPM)  
+4. Ran diagnostic checks (VIF, heteroskedasticity)  
+5. Applied robust standard errors  
+6. Identified potential endogeneity in `num_units`  
+7. Confirmed endogeneity via Durbin–Wu–Hausman  
+8. Implemented a 2SLS specification using roadway configuration as an instrument  
+9. Verified instrument strength through first-stage statistics  
+
+Overall, the analysis followed standard empirical steps: from data preparation and visualization to baseline modeling, diagnostic testing, and IV estimation to address endogeneity.
+
+As a natural extension, the analysis could be improved by estimating a **probit model** (or IV-probit) to provide probability estimates better suited to a binary outcome.
