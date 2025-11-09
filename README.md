@@ -293,17 +293,12 @@ Across all observations:
 
 ---
 
-## ✅ Conclusion
+## ⚠️ Endogeneity Analysis
 
-Even though the linear probability model has limitations, results are consistent with intuition:
+We suspect that the variable `num_units` may be endogenous.  
+It may be correlated with the error term, which could contain unobserved factors such as roadway configuration (parking lot, one-lane road, four-lane road, etc.).  
+Since `num_units` measures the number of vehicles involved in a crash (or cyclists/pedestrians when applicable), it is naturally correlated with roadway type.  
+However, roadway type is assumed to affect injury outcomes only **through** its effect on `num_units`, as it does not directly influence the probability of injuries.
 
-* crash severity, vehicles involved, and speed conditions significantly increase the likelihood of injuries.
-* Robust errors ensure valid inference under heteroskedasticity.
-
-Further work:
-
-* Consider non-linear models (Probit/Logit)
-* Explore endogeneity & IV strategies
-* Analyze spatial patterns
 
 ---
