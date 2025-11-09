@@ -301,4 +301,13 @@ Since `num_units` measures the number of vehicles involved in a crash (or cyclis
 However, roadway type is assumed to affect injury outcomes only **through** its effect on `num_units`, as it does not directly influence the probability of injuries.
 
 
+```stata
+ivregress 2sls injuries
+(num_units = i.trafficway_type_num)
+crash_christmas crash_night crash_afternoon crash_evening location_south location_north speed_below30 speed_above30 weather_condition traffic_control daylight dry_road damage_over_1500 ib8.first_crash_type_num , robust
+```
+
+<img width="754" height="852" alt="image" src="https://github.com/user-attachments/assets/185d2d6f-e1a1-486e-850a-5f30390a5228" />
+
+
 ---
