@@ -13,8 +13,21 @@ Comme le jeu contient de nombreuses variables qualitatives, nous les avons binar
 Au final, notre échantillon d’estimation compte [x_final] accidents, prêt pour la phase de modélisation.
 
 Voici les variables retenues : 
-<img width="602" height="410" alt="image" src="https://github.com/user-attachments/assets/ad76a675-0267-4b7c-b854-c0fc7c0e41a8" />
 
+| Variable group | Dummies included in model | Reference (baseline) |
+|----------------|--------------------------|----------------------|
+| Time of crash  | crash_afternoon, crash_evening, crash_night | **crash_morning** |
+| Holiday        | crash_christmas          | **Not Christmas** |
+| Location       | location_south, location_north | **location_center** |
+| Speed          | speed_below30, speed_above30 | **speed_eq30** |
+| Weather        | weather_condition        | **Other weather conditions** |
+| Traffic control| traffic_control          | **No traffic control** |
+| Daylight       | daylight                 | **Not daylight (night/twilight)** |
+| Road surface   | dry_road                 | **Not dry** |
+| Damage         | damage_over_1500         | **Damage ≤ $1500** |
+| Crash type     | ib8.first_crash_type_num | **Type 8 — PARKED MOTOR VEHICLE** |
+
+---
 ## 2) 🛠️ Présenter et justifier votre modèle économétrique et sa technique d’estimation (environ 1 minute) 
 
 ## 3) 📊 Présenter quelques statistiques descriptives (environ 2 minutes) ainsi que les résultats de vos estimations (environ 2 minutes)
