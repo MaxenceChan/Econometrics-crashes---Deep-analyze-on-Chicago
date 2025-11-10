@@ -30,20 +30,20 @@ Voici les variables retenues :
 ---
 ## 2) 🛠️ Présenter et justifier votre modèle économétrique et sa technique d’estimation (environ 1 minute) 
 
-Pour expliquer la probabilité qu’un accident entraîne au moins un blessé, nous avons choisi d’estimer un Linear Probability Model, ou LPM.
+Pour expliquer la probabilité qu’un accident entraîne au moins un blessé, nous avons choisi modèle LPM (Linear Probability Model) estimé par MCO.
 
 Ce modèle consiste simplement en une régression linéaire où la variable dépendante est binaire : blessure = 1 si au moins un blessé, 0 sinon.
 
 Le LPM a plusieurs avantages dans le cas de notre étude :
 – il est simple à interpréter ;
 – les coefficients donnent directement l’effet marginal sur la probabilité de blessure ;
-– l'interprétation des variables qualitatives avec de nombreuses modalités ets facile.
+– l'interprétation des variables qualitatives avec de nombreuses modalités est facile.
 
-Il étaient intéréssant dans notre cas d'utiliser ce type de modèle car nous avons observer que 95% des accidents concernait 0 ou 1 bléssés. De ce fait nous avons donc opter pour un mod-le probabiliste plutot qu'un modèle MCO. 
+Il étaient intéréssant dans notre cas d'utiliser ce type de modèle car nous avons observer que 95% des accidents concernait 0 ou 1 bléssés. De ce fait nous avons donc opter pour un modèle probabiliste plutot qu'un modèle linéaire multiple. 
 
 Pour l’estimation des coéfficient, nous la feront avec sous forme de probabilité. Nous avons également corriger l’hétéroscédasticité identifiée par le test de Breusch–Pagan par les ecart-types robustes .
 
-Enfin, nous avons détecté une endogénéité concernant la variable num_units. Nous avons donc recouru à une estimation en deux étapes IV/2SLS, utilisant trafficway_type_num comme instrument, que nous avons validé grâce au test de pertinence (F-stat > 10) et au test de Durbin–Wu–Hausman.
+Enfin, nous avons supposé de l'endogénéité concernant la variable num_units. Nous avons donc recouru à une estimation en deux étapes IV/2SLS, utilisant trafficway_type_num comme instrument, que nous avons validé grâce au test de pertinence (F-stat > 10) et au test de Durbin–Wu–Hausman.
 
 ## 3) 📊 Présenter quelques statistiques descriptives (environ 2 minutes) ainsi que les résultats de vos estimations (environ 2 minutes)
 
