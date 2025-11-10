@@ -1,12 +1,11 @@
-Objectif : Dans ceNe vidéo, vous devrez :
+# 🎯 Objectif de la vidéo 
 
-- Présenter l’étude, la base de données et indiquer comment vous l’avez neNoyée
-(environ 1 minute) ;
+## 1) 📝 Présenter l’étude, la base de données et indiquer comment vous l’avez nettoyée (environ 1 minute) 
 
-- Présenter et jusLfier votre modèle économétrique1 et sa technique d’esLmaLon
-(environ 1 minute) ;
+## 2) 🛠️ Présenter et justifier votre modèle économétrique et sa technique d’estimation (environ 1 minute) 
 
-- Présenter quelques staLsLques descripLves (environ 2 minutes) ainsi que les
-résultats de vos esLmaLons (environ 2 minutes)
+## 3) 📊 Présenter quelques statistiques descriptives (environ 2 minutes) ainsi que les résultats de vos estimations (environ 2 minutes)
 
-- Conclure en indiquant également les limites de votre étude (environ 1 minute).
+## 4) ⚠️ Conclure en indiquant également les limites de votre étude (environ 1 minute).
+
+---
