@@ -11,6 +11,10 @@ Côté préparation, nous avons d’abord exploré la structure des variables et
 Comme le jeu contient de nombreuses variables qualitatives, nous les avons binarisées en indicateurs, en fixant comme modalité de référence la plus fréquente. Les valeurs “UNKNOWN” — [Z] occurrences — ont été regroupées dans “Other” pour éviter un biais de sélection lié à leur suppression.
 
 Au final, notre échantillon d’estimation compte [x_final] accidents, prêt pour la phase de modélisation.
+
+Voici les variables retenues : 
+<img width="602" height="410" alt="image" src="https://github.com/user-attachments/assets/ad76a675-0267-4b7c-b854-c0fc7c0e41a8" />
+
 ## 2) 🛠️ Présenter et justifier votre modèle économétrique et sa technique d’estimation (environ 1 minute) 
 
 ## 3) 📊 Présenter quelques statistiques descriptives (environ 2 minutes) ainsi que les résultats de vos estimations (environ 2 minutes)
