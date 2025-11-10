@@ -2,7 +2,7 @@
 
 ## 1) 📝 Présenter l’étude, la base de données et indiquer comment vous l’avez nettoyée (environ 1 minute) 
 Bonjour,
-Notre étude analyse les accidents de la route à Chicago afin d’identifier les facteurs qui augmentent la probabilité qu’au moins une personne soit blessée. Nous utilisons le dataset officiel “Traffic Crashes” de la Ville de Chicago, sur la période [période]. L’unité d’observation est l’accident, soit [x] individus (lignes) et [y] variables au départ.
+notre étude analyse les accidents de la route à Chicago afin d’identifier les facteurs qui augmentent la probabilité qu’au moins une personne soit blessée. Nous utilisons le dataset officiel “Traffic Crashes” de la Ville de Chicago, sur la période [période]. L’unité d’observation est l’accident, soit [x] individus (lignes) et [y] variables au départ.
 
 Nous avons retenu un Linear Probability Model (LPM) pour estimer l’effet de caractéristiques d’accident — heure de la journée, météo, vitesse, localisation, type de collision, etc. — sur la probabilité d’avoir au moins un blessé.
 
